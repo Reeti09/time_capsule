@@ -69,11 +69,7 @@ cd letter-reminder-app
 ```bash
 npm install
 ```
-- Create a .env file
-```bash
-EMAIL_USER=your-email@gmail.com
-EMAIL_PASS=your-app-specific-password
-```
+
 - Start the server
 ```bash
 node server.js
@@ -103,7 +99,7 @@ We thank the following people for their contributions to this project:
 
 -**Reeti Chopra** - https://github.com/Reeti09
 
--**Saksham Gupta** - GitHub Profile
+-**Saksham Gupta** - https://github.com/am-saksham
 
 
 
