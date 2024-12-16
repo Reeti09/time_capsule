@@ -1,0 +1,160 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #000000; /* Background set to black */
+    color: white; /* Text color set to white */
+}
+
+/* Form Container Styling */
+.form-container {
+    width: 100%; /* Full width of the viewport */
+    height: 100%; /* Full height of the parent or container */
+    min-height: 100vh; /* Ensure it spans the full viewport height */
+    margin: 0 auto; /* Center horizontally if needed */
+    background: linear-gradient(#212121, #212121) padding-box,
+                linear-gradient(145deg, transparent 35%, #e81cff, #40c9ff) border-box;
+    border: 2px solid transparent;
+    padding: 32px 24px;
+    font-size: 14px;
+    font-family: inherit;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
+
+/* Heading Styling */
+h1 {
+    text-align: center;
+    font-size: 28px;
+    color: #fff; /* Heading color to white */
+    margin-bottom: 20px;
+}
+
+/* Form Group Styling */
+.form-group {
+    margin-bottom: 20px;
+}
+
+/* Label Styling */
+label {
+    font-size: 16px;
+    color: #fff; /* Label color set to white */
+    display: block;
+    margin-bottom: 8px;
+}
+
+/* Input and Textarea Styling */
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 12px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+/* Focus Effect on Inputs */
+input[type="email"]:focus,
+textarea:focus {
+    border-color: #007bff;
+}
+
+/* Textarea Styling */
+textarea {
+    resize: vertical;
+    min-height: 150px;
+}
+
+/* Button Styling */
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    transition: background-color 0.3s;
+}
+
+/* Button Hover Effect */
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Success Dialog Styling */
+.success-dialog {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.success-dialog .dialog-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    width: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.success-dialog button {
+    margin-top: 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.success-dialog button:hover {
+    background-color: #0056b3;
+}
+
+/* Footer Styling */
+.footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #888;
+}
+
+/* Footer Link Styling */
+.footer a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+/* Compatibility Adjustments for Infinite Length */
+body > .form-container {
+    margin: 0; /* Remove margins for infinite container */
+    height: 100%; /* Ensure container height covers everything */
+    min-height: 100vh; /* Ensures it always takes full viewport height */
+}
