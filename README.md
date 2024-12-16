@@ -12,12 +12,13 @@ Memory Keeper is a modern, responsive web application designed to allow users to
 
 ## Table of Contents
 
- - [Features](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
- - [Technologies Used](https://github.com/matiassingers/awesome-readme)
- - [Installation](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
- - [Usage](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
-- [Screenshots](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
-- [Contributors](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
+ - Features
+ - Technologies Used
+ - Installation
+ - Usage
+- Screenshots
+- Contributors
+
 
 ## Features
 
