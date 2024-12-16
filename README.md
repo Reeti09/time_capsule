@@ -91,7 +91,14 @@ node server.js
 
 ## Screenshots
 
-Insert gif or link to demo
+
+![Alt text](screenshots/pic1.jpeg)
+![Alt text](screenshots/pic2.jpeg)
+![Alt text](screenshots/pic3.jpeg)
+![Alt text](screenshots/pic4.png)
+![Alt text](screenshots/pic5.png)
+![Alt text](screenshots/pic6.png)
+![Alt text](screenshots/pic7.png)
 
 
 ## Contributers
